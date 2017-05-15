@@ -7,6 +7,7 @@
 #include "Tile.h"
 #include "Grid.generated.h"
 
+//
 
 USTRUCT(BlueprintType)
 struct FTileType
