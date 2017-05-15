@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\UnrealMatch3.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{6F8BAF49-390F-4E08-8145-E97CE0CC1C30}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UnrealMatch3.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\UnrealMatch3Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{48E1CC89-5EEA-405C-8AB1-DFA79939D713}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultDeviceProfiles.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Config\Android">
+			<UniqueIdentifier>{42D7F92C-344C-497B-8DBB-C0D0FB71CBD3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\Android\AndroidEngine.ini">
+			<Filter>Config\Android</Filter>
+		</None >
+		<Filter Include="Config\IOS">
+			<UniqueIdentifier>{615D5B90-EEAD-4659-8B4C-6A0970ED3FC6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\IOS\IOSEngine.ini">
+			<Filter>Config\IOS</Filter>
+		</None >
+		<Filter Include="Config\Localization">
+			<UniqueIdentifier>{E5F3072F-E005-4292-8402-E66E7E9A6DD7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\Localization\Game_Compile.ini">
+			<Filter>Config\Localization</Filter>
+		</None >
+		<None Include="..\..\Config\Localization\Game_Export.ini">
+			<Filter>Config\Localization</Filter>
+		</None >
+		<None Include="..\..\Config\Localization\Game_Gather.ini">
+			<Filter>Config\Localization</Filter>
+		</None >
+		<None Include="..\..\Config\Localization\Game_GenerateReports.ini">
+			<Filter>Config\Localization</Filter>
+		</None >
+		<None Include="..\..\Config\Localization\Game_Import.ini">
+			<Filter>Config\Localization</Filter>
+		</None >
+		<None Include="..\..\Config\Localization\RegenerateGame.ini">
+			<Filter>Config\Localization</Filter>
+		</None >
+		<Filter Include="Config\Mac">
+			<UniqueIdentifier>{762075A9-46AD-4F63-87B1-9FE370D45500}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\Mac\MacEditorPerProjectUserSettings.ini">
+			<Filter>Config\Mac</Filter>
+		</None >
+		<Filter Include="Config\Windows">
+			<UniqueIdentifier>{C6AFEC64-7DDD-46D7-8635-1CC50E89DE78}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\Windows\WindowsEditorPerProjectUserSettings.ini">
+			<Filter>Config\Windows</Filter>
+		</None >
+		<Filter Include="Source\Match3">
+			<UniqueIdentifier>{A2F0E91A-6D11-4C5E-9AB0-CCB0270FA538}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Match3\Grid.cpp">
+			<Filter>Source\Match3</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Match3\Grid.h">
+			<Filter>Source\Match3</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Match3\Match3.Build.cs">
+			<Filter>Source\Match3</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Match3\Match3.cpp">
+			<Filter>Source\Match3</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Match3\Match3.h">
+			<Filter>Source\Match3</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Match3\Match3BlueprintFunctionLibrary.cpp">
+			<Filter>Source\Match3</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Match3\Match3BlueprintFunctionLibrary.h">
+			<Filter>Source\Match3</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Match3\Match3GameInstance.cpp">
+			<Filter>Source\Match3</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Match3\Match3GameInstance.h">
+			<Filter>Source\Match3</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Match3\Match3GameMode.cpp">
+			<Filter>Source\Match3</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Match3\Match3GameMode.h">
+			<Filter>Source\Match3</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Match3\Match3PlayerController.cpp">
+			<Filter>Source\Match3</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Match3\Match3PlayerController.h">
+			<Filter>Source\Match3</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Match3\Match3SaveGame.cpp">
+			<Filter>Source\Match3</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Match3\Match3SaveGame.h">
+			<Filter>Source\Match3</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Match3\Tile.cpp">
+			<Filter>Source\Match3</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Match3\Tile.h">
+			<Filter>Source\Match3</Filter>
+		</ClInclude >
+		<Filter Include="Source\Match3\Resources">
+			<UniqueIdentifier>{4F02CD7E-1184-4696-B648-228EDBF68AB5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\Match3\Resources\Windows">
+			<UniqueIdentifier>{DF97909D-7A6D-465A-99E0-EEC2C642714D}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\Match3\Resources\Windows\Match3.rc">
+			<Filter>Source\Match3\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
